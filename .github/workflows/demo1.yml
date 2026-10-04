@@ -11,6 +11,6 @@ jobs:
 
     steps:
       - name: print a veriable
-        run: echo "print succssfully"
+        run: echo "print succssfullyy"
 
 
