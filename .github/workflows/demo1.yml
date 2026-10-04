@@ -1,0 +1,16 @@
+name: Basic Pipeline
+
+on:
+  push:
+    branches: ['main']
+      
+
+jobs:
+  demo1:
+    runs-on: [self-hosted]
+
+    steps:
+      - name: print a veriable
+        run: echo "print succssfully"
+
+
